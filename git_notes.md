@@ -17,5 +17,12 @@ Git stash
     git stash Advanced Command
     --> git stash --include-untracked ==>keep untracked files
     --> git stash --all keep all files(even ignored ones )
+    --> git stash save "name of stash" ==> name stashes for easy references
     
+    # Advanced stashing for cleaning stash
+    --> git stash pop ==> Remove the last stash and apply the changes(it will not remove the stash if there will be merge conflict)
+    --> git stash drop ==> Remove the last stash
+    --> git stash drop stash@{n} ==> remove the nth stash
+    --> git stash clear ==> remove all stashes
+
 
