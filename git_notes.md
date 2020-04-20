@@ -16,5 +16,6 @@ Git stash
 
     git stash Advanced Command
     --> git stash --include-untracked ==>keep untracked files
-    --> git stash --all keep all files
+    --> git stash --all keep all files(even ignored ones )
+    
 
